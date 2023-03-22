@@ -56,7 +56,7 @@ header{
 
 /* prima sezione */
 section{
-    width: 80%;
+    width: 90%;
     display: flex;
     margin: auto;
 }
@@ -131,3 +131,38 @@ section{
     color: red;    
 }
 
+/* footer */
+footer{
+    background-color: #1A1A1A;
+}
+
+.footer-row{
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.foot-left, .foot-right{
+    width: 40%;
+    padding: 5px 10px;
+}
+
+/* foot right */
+.list{
+    display: flex;
+    list-style-type: none;
+}
+
+.list li{
+    margin-right: 20px;
+}
+
+/* foot left */
+.foot-right{
+    text-align: end;
+}
